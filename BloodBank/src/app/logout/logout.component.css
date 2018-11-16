@@ -1,0 +1,11 @@
+.nav {
+    display: block;
+}
+li {
+    border-radius: 15px;
+    border: 1px solid;
+}
+
+.navbar {
+    list-style-type: none;
+}

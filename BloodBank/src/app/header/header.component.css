@@ -1,0 +1,13 @@
+img {
+    width: 8%;
+    float: right;
+    margin-top: -62px;
+    position: absolute;
+    right: 0;
+}
+div {
+    text-align: center;
+    background: #ED1C5B;
+    border-radius: 7px;
+    border: #ED1C5B;
+}

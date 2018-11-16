@@ -1,0 +1,10 @@
+<form [formGroup]="loginForm" (ngSubmit)="signIn()" ngNativeValidate>
+    <ng-container *ngFor="let config of formConfig">
+        <div class="form-group ">
+            <label for="{{config.name}}" class='col-md-3 col-form-label'>{{config.label}}</label>
+            <div class="col-md-10">
+                <input [type]="config.type" class='form-control ' required [name]="config.name" [formControlName]="config.name"></div>
+        </div>
+    </ng-container>
+    <button class="btn btn-primary" type="submit">Login</button>
+</form>

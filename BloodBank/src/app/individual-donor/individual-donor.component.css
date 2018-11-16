@@ -1,0 +1,12 @@
+.mdc-card{
+    height: 350px;
+    width: 350px
+}
+.mdc-card__media {
+    background-image: url('../../assets/w2.jpg');
+}
+.mdc-card__media-content{
+    font-family: Playlist;
+    font-size: 75px;
+    text-align: center;
+}

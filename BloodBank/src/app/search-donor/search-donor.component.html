@@ -1,0 +1,10 @@
+<div class="form-group">
+  <label for="location">Search Using Location</label>
+  <input type='text' class="form-control" (focus)='showLocation()' id='location' [(ngModel)]='locationVal' />
+  <ng-template #locRef></ng-template>
+</div>
+<div class="form-group">
+  <label for='search'>Search Using Blood Group</label>
+  <input id="typeahead-basic" type="text" class="form-control" (change)='updateEmit()' [(ngModel)]="searchKey"
+    [ngbTypeahead]="search" />
+</div>

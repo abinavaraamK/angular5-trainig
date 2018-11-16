@@ -1,0 +1,18 @@
+<div class='card'>
+  <ul *ngFor='let past of pastData'>
+    <li>{{past}}</li>
+  </ul>
+</div>
+<div class='card'>
+  <ul *ngFor='let future of futureData'>
+    <li>{{future}}</li>
+  </ul>
+</div>
+
+
+<div>
+  <app-future-camps #futureCamp></app-future-camps>
+</div>
+<div>
+  <app-past-camps #pastCamps></app-past-camps>
+</div>

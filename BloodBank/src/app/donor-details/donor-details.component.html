@@ -1,0 +1,7 @@
+<div class="header col-md-12">
+  <div class="col-md-4 card" *ngFor='let item of cardDetails' (click)="navigateUser(item.header)">
+    <div class="col-md-6">{{item.header}}</div>
+    <div class="col-md-6" class="{{item.style}}"></div>
+    <div class="col-md-6">{{item.count}}</div>
+  </div>
+</div>

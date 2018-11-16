@@ -1,0 +1,48 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import '../node_modules/bootstrap/dist/css/bootstrap.css';
+
+button {
+    border-radius: 1rem !important;
+}
+
+h1, h2 {
+    color: wheat;
+}
+@font-face {
+    font-family: 'Humblle Rought';
+    src: url('./assets/HumblleRoughtCaps.otf')  format('opentype');
+    /* src: url('../fonts/DurantBold.eot'); 
+    src: url('../fonts/DurantBold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/DurantBold.otf') format('opentype'), 
+         url('../fonts/DurantBold.svg#Durant-Bold') format('svg'),
+         url('../fonts/DurantBold.ttf')  format('truetype'), 
+         url('../fonts/DurantBold.woff') format('woff'); */
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'Hamurz';
+    src: url('./assets/Hamurz.otf')  format('opentype');
+    /* src: url('../fonts/DurantBold.eot'); 
+    src: url('../fonts/DurantBold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/DurantBold.otf') format('opentype'), 
+         url('../fonts/DurantBold.svg#Durant-Bold') format('svg'),
+         url('../fonts/DurantBold.ttf')  format('truetype'), 
+         url('../fonts/DurantBold.woff') format('woff'); */
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'Playlist';
+    src: url('./assets/Playlist.otf')  format('opentype');
+    /* src: url('../fonts/DurantBold.eot'); 
+    src: url('../fonts/DurantBold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/DurantBold.otf') format('opentype'), 
+         url('../fonts/DurantBold.svg#Durant-Bold') format('svg'),
+         url('../fonts/DurantBold.ttf')  format('truetype'), 
+         url('../fonts/DurantBold.woff') format('woff'); */
+    font-weight: bold;
+}
+
+body {
+    background: url('./assets/bg1.jpg');
+}

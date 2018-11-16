@@ -1,0 +1,14 @@
+.card {
+    width: 50%;
+}
+.card {
+    flex-direction:initial
+}
+.header {
+    font-weight: bold;
+}
+.topHeader {
+    font-size: -webkit-xxx-large;
+    font-weight: 700;
+    text-align: justify;
+}

@@ -1,0 +1,14 @@
+.card[_ngcontent-c5] {
+    
+    word-wrap: inherit;
+    min-height: 10rem;
+    /* display: block; */
+    /* text-align: -webkit-center; */
+    text-decoration: underline;
+    font-family: cursive;
+    font-variant: small-caps;
+    font-weight: 700;
+    font-size: larger;
+    width: 50%;
+    /* cursor: pointer; */
+}

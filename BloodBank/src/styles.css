@@ -1,0 +1,21 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import '../node_modules/bootstrap/dist/css/bootstrap.css';
+@import '../node_modules/font-awesome/css/font-awesome.min.css';
+@import "../node_modules/@material/card/dist/mdc.card.css";
+ body {
+    background-image: url('./assets/w4.jpg');
+    background-repeat: no-repeat;
+    background-size: inherit;
+}
+hr {
+    margin-top: 0;
+}
+label {
+    color: aliceblue;
+}
+
+@font-face {
+    font-family: 'Playlist';
+    src: url('./assets/Playlist.otf')  format('opentype');
+}

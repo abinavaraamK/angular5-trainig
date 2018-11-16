@@ -1,0 +1,7 @@
+<form [formGroup]="registrationForm" (ngSubmit)="submitForm()" class='form'>
+  <div><label for='name'>Name</label><input type="text" class='form-control' formControlName="name"></div>
+  <div><label for='bloodGroup'>Blood Group</label><input type="text" class='form-control' formControlName="bloodGroup"></div>
+  <div><label for='mobileNumber'>Mobile Number</label><input type="text" class='form-control' formControlName="mobileNumber"></div>
+  <div><label for='hospital'>Hospital</label><input type="text" formControlName="hospital" class='form-control'></div>
+  <button type="submit" class="btn btn-info" [disabled]="!registrationForm.valid">Register Donor</button>
+</form>

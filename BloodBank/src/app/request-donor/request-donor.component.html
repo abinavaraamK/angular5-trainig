@@ -1,0 +1,29 @@
+<div class="col-md-12"> <app-search-donor (emitSearch)='updateFilter($event)' [donorList]='Donors'></app-search-donor></div>
+<!-- <div class="col-md-12">
+  <div class="col-md-12" class='topHeader'>Avaliable Donors</div>
+  <div *ngFor="let donor of Donors| customFilter: 'bloodGroup': searchedVal; let i= index " class="card col-md-12">
+    <div class="col-md-4" [ngClass]="{'header': i  === 0}">{{donor.name}}</div>
+    <div class="col-md-4" [ngClass]="{'header': i === 0}">{{donor.bloodGroup}}</div>
+    <div class="col-md-4" [ngClass]="{'header': i === 0}">{{donor.mobileNumber}}</div>
+    <div *ngIf='i === 0' class="col-md-4" [ngClass]="{'header': i === 0}">Actions</div>
+    <div class="col-md-4"> <button type="button" *ngIf='i !== 0' (click)='navigate()'> <i class="fa fa-1x fa-tint"></i>Request blood</button></div>
+  </div>
+</div> -->
+
+<table class='table table-dark'>
+    <tr>
+        <th scope="col">Name</th>
+        <th>Required Group</th>
+        <th>Mobile NUmber </th>
+        <th>Hospital Name</th>
+        <th>Action</th>
+    </tr>
+    <tr *ngFor="let eachRequest of Donors | customFilter: fieldName1:fieldName2: searchedVal1 :searchedVal2;">
+
+        <td scope="row">{{eachRequest.name}}</td>
+        <td>{{eachRequest.bloodGroup | uppercase}}</td>
+        <td>{{eachRequest.mobileNumber}}</td>
+        <td>{{eachRequest.reqHospital}}</td>
+        <td> <button type="button" (click)='navigate(eachRequest.name)'> <i class="fa fa-1x fa-tint"></i></button></td>
+    </tr>
+</table>

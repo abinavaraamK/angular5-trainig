@@ -1,0 +1,34 @@
+{
+    "donors":[
+        {"name":"abi", "bloodGroup":"O +ve","mobileNumber": 78560060, "reqHospital": "SRM"},
+        {"name":"Ram", "bloodGroup":"A +ve","mobileNumber": 78560060, "reqHospital": "vijaya" },
+        {"name":"Hari", "bloodGroup":"A -ve","mobileNumber": 68570060, "reqHospital": "Apollo"},
+        {"name":"superman", "bloodGroup":"S +ve","mobileNumber": 98560060, "reqHospital": "Cauvery" },
+        {"name":"spiderman", "bloodGroup":"S -ve","mobileNumber": 78560060, "reqHospital": "Medway" }
+    ],
+    "details":[
+        {"header":"Register","count":1099,"style":"fa fa-3x fa-user-plus"},
+        {"header":"Avail Donor", "count":564, "style":"fa fa-3x fa-tint"},
+        {"header":"Camp Details", "count":5 , "style":"fa fa-3x fa-medkit"}
+    ],"hospitals": [],
+    "donationCamps": [],
+    "requests": [
+        { "id": 201, "reqGroup": "opos", "reqDate": "2018-11-23", "reqHospital": "vijaya" },
+        { "id": 202, "reqGroup": "bpos", "reqDate": "2018-12-12", "reqHospital": "SRM" },
+        { "id": 203, "reqGroup": "opos", "reqDate": "2018-12-13", "reqHospital": "Women's care" },
+        { "id": 204, "reqGroup": "opos", "reqDate": "2018-12-19", "reqHospital": "Apollo" },
+        { "id": 205, "reqGroup": "apos", "reqDate": "2018-11-29", "reqHospital": "Cauvery" }
+    ],
+    "donationHistory": [{
+        "name":"abi",
+        "details": [{ "date": "2018-1-10", "hospital": "Malar" }, { "date": "2018-10-11", "hospital": "GH" }]
+    },
+    {
+        "name":"Ram",
+        "details": [{ "date": "2017-2-21", "hospital": "ESI" }, { "date": "2017-10-11", "hospital": "Cavery" }]
+    }, {
+        "name":"Hari",
+        "details": [{ "date": "2017-3-11", "hospital": "Apollo" }, { "date": "2017-10-11", "hospital": "ESI" }]
+    }
+    ]
+}

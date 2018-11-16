@@ -1,0 +1,17 @@
+.header {
+    text-align: center
+}
+
+.card[_ngcontent-c4] {
+    float: left;
+    word-wrap: inherit;
+    min-height: 10rem;
+    display: block;
+    text-align: -webkit-center;
+    text-decoration: underline;
+    font-family: cursive;
+    font-variant: small-caps;
+    font-weight: 700;
+    font-size: larger;
+    cursor: pointer;
+}
